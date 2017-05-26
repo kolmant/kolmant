@@ -318,21 +318,21 @@ p {
   }
 
   .change-language-wrapper .selector {
-      padding: 18px;
-      font-size: 10px;
+      width: 100%;
+      padding: 15px;
   }
 
   .change-language-wrapper {
-    height: 50px;
+    height: 100px;
   }    
 
   .change-language-wrapper .spanish-option {
-      padding: 18px;
-      font-size: 10px;
+      width: 50%;
+      padding: 15px;
   }
   .change-language-wrapper .english-option {
-      padding: 18px;
-      font-size: 10px;
+      width: 50%;
+      padding: 15px;
   }
 }
 /* Small devices (tablets, 768px and up) */
