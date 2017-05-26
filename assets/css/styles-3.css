@@ -318,7 +318,8 @@ p {
   }
 
   .change-language-wrapper .selector {
-      padding: 15px;
+      padding: 18px;
+      font-size: 10px;
   }
 
   .change-language-wrapper {
@@ -326,10 +327,12 @@ p {
   }    
 
   .change-language-wrapper .spanish-option {
-      padding: 15px;
+      padding: 18px;
+      font-size: 10px;
   }
   .change-language-wrapper .english-option {
-      padding: 15px;
+      padding: 18px;
+      font-size: 10px;
   }
 }
 /* Small devices (tablets, 768px and up) */
