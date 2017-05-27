@@ -185,7 +185,9 @@ p {
     background: rgba(0, 0, 0, 0.4);
     float: left;
     color: #fff;
+    cursor: pointer;
 }
+
 .change-language-wrapper .english-option {
     padding: 25px;
     text-align: center;
@@ -193,6 +195,7 @@ p {
     background: rgba(0, 0, 0, 0.3);
     float: left;
     color: #fff;
+    cursor: pointer;
 }
 
 .main-wrapper .section-title {
