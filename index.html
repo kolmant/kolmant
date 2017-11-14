@@ -26,7 +26,7 @@
     <![endif]-->
 </head> 
 
-<body>
+<body onload="window.lang.change('es')">
     <div class="wrapper">
     <div class="change-language-wrapper">
     <div class="selector" lang="en">
@@ -63,6 +63,16 @@
                     <h4 lang="en" class="degree">Currently enrolled in the fifth year of Systems Engineering</h4>
                     <h5 class="meta">Escuela Colombiana de Ingeniería Julio Garavito</h5>
                     <div class="time">2013 - 2018</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 lang="en" class="degree">Foro de Ciberseguridad de las Américas</h4>
+                    <h5 class="meta">OEA - AGESIC, Montevideo, Uruguay</h5>
+                    <div class="time">09/2017</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 lang="en" class="degree">Simposio de Ciberseguridad de las Américas</h4>
+                    <h5 class="meta">OEA - AGESIC, Montevideo, Uruguay</h5>
+                    <div class="time">09/2017</div>
                 </div><!--//item-->
                 <div class="item">
                     <h4 class="degree">CCNA Routing and Switching: Introduction to Networks</h4>
@@ -137,6 +147,16 @@
                     <span class="project-title"><a href="http://eciutils.com">ECIUtils</a></span> - <span class="project-tagline" lang="en">The purpose of the web page is to make the life of the students of my university easier, providing powerful and useful tools. Initially, the web page allows students to organize and create their timetable</span>
                     
                 </div><!--//item-->
+
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/LIS-ECI/INGInious">ECINGInious</a></span> - <span class="project-tagline" lang="en">ECINGInious is a fork of INGInious (an Open Source LMS (Learning Management System) made in Python (web.py), MongoDB, HTML and CSS). ECINGInious is a Programming Contest Jury System oriented to academic purposes (the goal is to use the power of the LMS to give feedback to students from submitted code-exercises).    </span>
+                    
+                </div><!--//item-->
+
+                <div class="item">
+                    <span class="project-title"><a href="http://pancomido-cosw.herokuapp.com">PanComido</a></span> - <span class="project-tagline" lang="en">I am working (with colleges) on a university project named PanComido. PanComido is a mobile application (Android + Spring Boot (REST API controllers)) where people, being in public places, can order food from different restaurants. PanComido has a web page for restaurants owners (Angular 4 + Spring Boot (REST API controllers)) where they can add, delete and modify dishes, delivery and see pending orders, etc.</span>
+                    
+                </div><!--//item-->
                 
             </section><!--//section-->
             
@@ -202,9 +222,9 @@
                     </div><!--//item-->
                     
                     <div class="item">
-                        <h3 class="level-title">Photoshop</h3>
+                        <h3 class="level-title">Adobe Photoshop</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="70%">
+                            <div class="level-bar-inner" data-level="60%">
                             </div>                                      
                         </div><!--//level-bar-->                                 
                     </div><!--//item-->
@@ -214,6 +234,16 @@
             <section class="section awards-section">
                 <h2 class="section-title" lang="en"><i class="fa fa-trophy"></i>Awards and leaderships</h2>
                 
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title" lang="en">1st place</h3>
+                            <div class="time">2017</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Kaspersky Lab KIPS BANK Game CyberDrill Uruguay</div>
+                    </div><!--//meta-->
+                </div><!--//item-->
+                <br>
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
@@ -273,7 +303,7 @@
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>        
     <script type="text/javascript">
-    	    var lang = new Lang();
+    	var lang = new Lang();
         lang.dynamic('es', 'assets/js/langpack/es.json');
         lang.init({
             defaultLang: 'en'
